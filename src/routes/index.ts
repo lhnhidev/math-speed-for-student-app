@@ -2,6 +2,7 @@ import { Application } from 'express';
 import userRoutes from './user.route';
 import questionRoutes from './question.route';
 import testAttemptRoutes from './test-attempt.route';
+import testRoutes from './test.route';
 
 export default function setupRoutes(app: Application) {
     app.use('/api/users', userRoutes);
