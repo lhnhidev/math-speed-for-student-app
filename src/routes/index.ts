@@ -7,4 +7,5 @@ export default function setupRoutes(app: Application) {
     app.use('/api/users', userRoutes);
     app.use('/api/cau-hoi', questionRoutes);
     app.use('/api/lich-su-lam-bai', testAttemptRoutes);
+    app.use('/test', testRoutes);
 }
